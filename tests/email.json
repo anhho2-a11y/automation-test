@@ -19,6 +19,16 @@
       "case": "invalid_email_format",
       "email": "testerqc2gmail@com123",
       "password": "123456"
+    },
+    {
+      "case": "empty_email",
+      "email": "",
+      "password": "123456"
+    },
+    {
+      "case": "empty_password",
+      "email": "testerqc2@gmail.com",
+      "password": ""
     }
   ]
 }
