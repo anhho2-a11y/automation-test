@@ -1,0 +1,24 @@
+{
+  "account": [
+    {
+      "case": "valid",
+      "email": "testerqc2@gmail.com",
+      "password": "123456"
+    },
+    {
+      "case": "incorrect email",
+      "email": "test123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "case": "incorrect password",
+      "email": "testerqc1@gmail.com",
+      "password": "Anh2912@"
+    },
+    {
+      "case": "invalid_email_format",
+      "email": "testerqc2gmail@com123",
+      "password": "123456"
+    }
+  ]
+}
